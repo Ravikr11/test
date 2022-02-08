@@ -2,7 +2,7 @@ name: Install Python
 on: [push]
 jobs:
   check-python-version
-    runs-on: ubuntu-latest
+    runs-on: windows
     steps:
        - uses: actions/checkout@v2
        - name: Set up python 3.6.9
